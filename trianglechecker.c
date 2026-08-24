@@ -8,14 +8,15 @@ int main(){
     }
     else{
         printf("The given sides form a triangle.\n");
-    }
-    if(side1 == side2 && side2 == side3){
+        if(side1 == side2 && side2 == side3){
         printf("The triangle is Equilateral.\n");
-    }
-    else if(side1 == side2 || side2 == side3 || side1 == side3){
+        }
+        else if(side1 == side2 || side2 == side3 || side1 == side3){
         printf("The triangle is Isosceles.\n");
-    }
-    else{
+        }
+        else{
         printf("The triangle is Scalene.\n");
-    }
+        }
     return 0;
+    }
+}
